@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<Title> Encriptador Alura</Title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="jscript/encriptar.js"></script>
+	<script type="text/javascript" src="jscript/desencriptar.js"></script>
+	<script type="text/javascript" src="jscript/botones.js"></script>
+	<script type="text/javascript" src="jscript/copiar.js"></script>
+</head>
+<body>
+	<header >
+		
+			<img src="imagenes/Logo.png" alt="Logo Alura" class="logoAlura">
+		
+	</header>
+	
+	
+		<main class="principal">
+			<div >
+			<textArea autocomplete="off" id="textoPrincipal" placeHolder="Ingrese Aquí su Frase a Encriptar" class="textoPrincipal"  oninput="activarDesactivarBotones()" required></textArea>
+			</div>
+			<div class="contenedorDesencriptador">
+			 	<img src="imagenes/Rectangle1.png" class="rectangulo" >
+				<img src="imagenes/Muneco.png" class="imagenMunheco" id="munheco">
+			 
+				<div class="mensaje" id="mensaje">
+					<textarea  id="txt_cajaMensaje" class="mensaje1" disabled>Ningún mensaje fue Encontrado</textarea>
+					<p id="cajaMensaje"  value="" class="mensaje2">Ingrese el texto que desee Encriptar o Desencriptar</p>
+					<input type="submit" id="botonCopiar" value="Copiar" class="copiar" onclick="copiarPortapapeles()"  disabled autocomplete="off">		
+				</div>
+  			 
+			 
+			 
+			</div>	
+		
+			<div class="botonera">
+				<div class="aclaracion">
+							<p><img src="imagenes/vector.png">Solo letras minúsculas y sin acentos</p>		
+				</div>
+				
+					<input type="submit" id="botonEncriptar" value="Encriptar" class="encriptar" onclick="encriptarFrase()" disabled autocomplete="off">
+					<input type="submit" id="botonDesencriptar" value="Desencriptar" class="desencriptar" onclick="desencriptarFrase()" disabled autocomplete="off">
+				
+			</div>
+		
+			
+		</main>
+	<footer>		
+			<p> &copy Copyright Jorge Marino - 2022</p> 
+	</footer>
+<div id="copiado" class="copiado">
+			<p>Contenido copiado</p>
+</div>	
+</body>
+	
+
+
+
+</html>
+
+
+
