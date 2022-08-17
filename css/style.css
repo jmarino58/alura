@@ -465,7 +465,7 @@ body{
 }
 
 
-
+/*
 @media screen and (max-width:840px){
 .textoPricipal{
 	position:relative;
@@ -480,7 +480,6 @@ body{
 
 
 .mensaje2{
-/* Ingresa el texto que desees encriptar o desencriptar. */
 	position:absolute;
 	font-family: 'Inter';
 	font-style: normal;
@@ -489,7 +488,6 @@ body{
 	line-height: 150%;
 	text-align: center;
 	
-	/* Gray/gray-400 */
 	color: #495057;
 	top:70px;
 }
@@ -516,7 +514,7 @@ body{
 	font-size: 14px;
 	margin: 0 auto;
 	
-/* Gray/gray-400 */
+
 	color: #FF0000;
 }
 
@@ -532,7 +530,7 @@ body{
 
 
 
-
+*/
 
 @media screen and (max-width:600px){
 header img{
