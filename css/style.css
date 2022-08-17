@@ -561,6 +561,21 @@ header img{
 	
 }
 
+.contenedorDesencriptador{
+	position:absolute;
+	width: 100%;
+	height:20%;
+	top:65%;
+	left:0.5vw;
+	right:1px;
+}
+
+.copiar{
+	
+	top:105%;
+}
+
+
 .copiado{
 	position:absolute;
 	width:100%;
@@ -585,7 +600,7 @@ header img{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
-	top:40%;
+	top:45%;
 	width:100%;
 	padding: 0 0px 6px;
 	/*right:40px;*/
