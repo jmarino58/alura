@@ -81,16 +81,16 @@ header img{
 	
 	width: 30%;
 	height:90%;
-	top:1em;
+	top:10px;
 	right:20px;
 
 }
 
 .rectangulo{
+	width:100%;
+	height:500px;
 	
 	right: 10px;
-	width:100%;
-	height:100%;
 	padding: 20px 0px 0px 0px;
 	/* White */
 	
@@ -104,10 +104,10 @@ header img{
 }
 .imagenMunheco{
 	position:absolute;
-	top:7%;
-	left:25%;
-	height:50%;
-	width:50%;
+	top:50px;
+	left:70px;
+	
+	width:70%;
 	
 	
 	
@@ -119,10 +119,8 @@ header img{
 	width:90%;
 	height:30%;
 	display:block;
-	left:7%;
-	top:70%;
-
-	
+	left:5%;
+	top:350px;
 }
 
 
@@ -130,14 +128,12 @@ header img{
 /* Ningún mensaje fue encontrado */
 .mensaje1{
 	position:absolute;
-	width:80%;
+	width:100%;
 	
 	font-family: 'Inter';
 	font-style: bold;
 	font-weight: 700;
 	font-size: 24px;
-	
-
 	/* or 29px */
 	text-align: center;
 	/* Gray/gray-500 */
@@ -162,7 +158,7 @@ header img{
 	left:0px;
 	/* Gray/gray-400 */
 	color: #495057;
-	
+	margin:0 auto;
 	background-color:transparent;
 	border:none;
 	outline:none;
@@ -174,13 +170,14 @@ header img{
 .mensaje2{
 /* Ingresa el texto que desees encriptar o desencriptar. */
 	position:absolute;
+	width:100%;
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 150%;
 	text-align: center;
-	
+	margin:0 auto;
 	/* Gray/gray-400 */
 	color: #495057;
 	top:70px;
@@ -231,7 +228,7 @@ header img{
 
 .botonera{
 	position:absolute;
-	top:80%;
+	top:450px;
 	padding: 0 0 6px;
 	text-align:center;
 
@@ -318,7 +315,7 @@ body{
 	position:absolute;
 	width: 100%;
 	height:20%;
-	top:60%;
+	top:65%;
 	left:0.5vw;
 	right:1px;
 }
